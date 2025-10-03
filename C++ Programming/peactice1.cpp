@@ -11,9 +11,10 @@ int main()
 	string name;
 	
 	cout<<"Enter Your name:  ";
-	cin>>  name;
+	getline(cin,name);    /* Manage inpute with spaces*/
 	cout<<"Enter Your Age:  ";
 	cin>>age ;
 	cout<<"\n Hi"<<name<<" You are "<<age<<" Year old";
 	return 0;
 }
+
